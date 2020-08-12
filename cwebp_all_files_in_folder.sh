@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Converts all file in a given folder to .webp image format
+
 PARAMS=('-m 6 -q 70 -mt -af -progress')
 if [ $# -ne 0 ]; then
   PARAMS=$@;

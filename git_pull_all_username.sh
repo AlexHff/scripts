@@ -1,5 +1,7 @@
 #!/bin/bash
 
+# Downloads all Github repositories of a given user
+
 if [ -z "$1" ]; then
     echo "waiting for the following arguments: username + max-page-number"
     exit 1
